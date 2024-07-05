@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('imagenes/fondo/banner.jpeg') repeat;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+.grid-item {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
